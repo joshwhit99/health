@@ -26,3 +26,6 @@ getJSON('http://polaris.i3l.gatech.edu:8080/gt-fhir-webapp/base/Patient?_id=Pati
 
 });
 </script>
+<!--http://polaris.i3l.gatech.edu:8080/gt-fhir-webapp/base/Observation?patient=Patient/1&code=coding|8302-2&_format=json--> // to get hieght of patient1
+<!--http://polaris.i3l.gatech.edu:8080/gt-fhir-webapp/base/Observation?patient=Patient/1&code=coding|3141-9&_format=json--> // link for body wieght
+<!--entry[0].resource.valueQuantity.value--> //for getting the patient hieght or wieght from links above
